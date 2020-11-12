@@ -119,7 +119,7 @@ public class Parser {
         throw new Error(message);
     }
     public static void main(String[] args) {
-        Parser parser = new Parser("A DOG BITES THE MAN");
+        Parser parser = new Parser("A MAN BITES A MAN");
         parser.parse();
     }
 }

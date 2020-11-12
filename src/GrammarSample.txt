@@ -1,0 +1,39 @@
+<Sentence> = <Subject>  <Verb>  <Object>
+<Subject> = I | You | They
+<Verb> = Go | Eat
+<Object> = Banana | School
+
+Non Terminal
+
+<Assign> = <VarDel> = <Expression>;
+<VarDel> = <Type> varaiable_name
+<Type> = int | double |float
+<Expression> = <Expression> + <Expression>
+            | <Expression> - <Expression>
+            | <Expression> * <Expression>  
+            <Expression> / <Expression>  
+<Expression>  = <Literal>
+<Literal> = NumLiter | BooleanLiteral | StringLiteral
+
+int a = 10;
+<Assing> = <VarDel> = <Expression> ;
+        = <Type> varaiable_name = <Expression> ;
+        = int varaiable_name = <Expression> ;
+        = int a = <Expression> ;
+        = int a = <Literal> ;
+        = int a = NumLiter ;
+        = int a = 10 ;
+
+
+        E = E + T
+        T = T * F
+
+a + b * c
+a + b + c
+a = a + b;
+
+
+int a = false;
+integer = boolean
+
+a.b.getBoolean() == c;
